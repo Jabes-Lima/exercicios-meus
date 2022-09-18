@@ -52,7 +52,7 @@ header{
 
 header>h1{
     padding-bottom: 20px;
-    color: rgb(10, 198, 212);
+    color: black;
     text-align: center;
     
     
@@ -64,6 +64,8 @@ header>p{
     width: 400px;
     color: black;
     padding: 15px; 
+    background-color: rgba(0, 0, 0, 0.436);
+    color: aliceblue;
 }
 
 table{
@@ -85,8 +87,8 @@ tr{
 
 .h1{
     text-align: center;
-    color: rgb(10, 198, 212);
-}
+    color:black;
+} 
 .th{
     color:black;
     text-align: center;
@@ -102,4 +104,10 @@ footer{
 
 td{
     text-align: center;
+}
+
+.img{
+    padding-right: 5px;
+    margin-top: 10px;
+    
 }
