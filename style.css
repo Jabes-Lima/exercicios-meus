@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: url('fotos\ body/body1.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+main{
+    min-width: 100px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    background-image: url(fotos\ body/body2.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+article{
+    background-color: black;
+    text-align: right;
+}
+
+article>h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    
+}
+
+header{
+    padding-top: 100px;
+    
+
+}
+
+header>h1{
+    padding-bottom: 20px;
+    color: rgb(10, 198, 212);
+    text-align: center;
+    
+    
+
+} 
+
+header>p{
+    font-size: 20px;
+    width: 400px;
+    color: black;
+    padding: 15px; 
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10px;
+}
+
+th{
+    border: solid black;
+}
+
+tr{
+    border: solid black;
+    text-align: left;
+    color: blue;
+}
+
+.h1{
+    text-align: center;
+    color: rgb(10, 198, 212);
+}
+.th{
+    color:black;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+td{
+    text-align: center;
+}
