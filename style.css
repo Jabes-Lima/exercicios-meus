@@ -19,6 +19,7 @@ main{
     max-width: 800px;
     background-color: black;
     margin: auto;
+    display: block;
     background-image: url(fotos\ body/body2.jfif);
     background-attachment: fixed;
     background-size: cover;
